@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1396173782269" name="duplicate:http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7" uri="Elearn.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1396173782269" name="duplicate:http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7" uri="Elearning.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1396173782269" name="duplicate:http://www.semanticweb.org/harshbahua/ontologies/2014/2/untitled-ontology-56" uri="Elearn2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1396173782269" name="duplicate:http://www.semanticweb.org/harshbahua/ontologies/2014/2/untitled-ontology-56" uri="Elearn3.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1396173782269" name="http://www.semanticweb.org/lenovo/ontologies/2014/2/untitled-ontology-10" uri="dsf.owl"/>
+    </group>
+</catalog>

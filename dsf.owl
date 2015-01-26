@@ -1,0 +1,898 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/lenovo/ontologies/2014/2/untitled-ontology-10"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/lenovo/ontologies/2014/2/untitled-ontology-10">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#ADT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AVLTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Array"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B+Tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B-Tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BFS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BinarySearch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BinaryTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BubbleSort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CircularLinkedList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CircularQueue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DFS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DoubleEndedQueue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DoubleHashing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DoublyCircularLinkedList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DoublyLinkedList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Expression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HashSearch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HeapSort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HuffmanCoding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InFixExpression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InOrderTraversal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InsertionSort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Iteration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KruskalAlgorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LinearDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LinearProbing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LinearSearch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LinkedList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MergeSort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MultinarySearchTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonLinearDataStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pointer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostFixExpression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PostOrderTraversal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreFixExpression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PreOrderTraversal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimAlgorithm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PriorityQueue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuadraticProbing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Queue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuickSort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RadixSort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recursion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Searching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ShellSort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SinglyCircularLinkedList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SinglyLinkedList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sorting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpanningTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThreadedBinaryTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traversal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tree"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#alternative"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#asAn"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasApplicationIn"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#isExpressedUsing"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#isTraverseBy"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#on"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#usedToFind"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AVLTree"/>
+        <Class IRI="#MultinarySearchTree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Array"/>
+        <Class IRI="#LinearDataStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B+Tree"/>
+        <Class IRI="#MultinarySearchTree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B-Tree"/>
+        <Class IRI="#MultinarySearchTree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BFS"/>
+        <Class IRI="#Searching"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BinarySearch"/>
+        <Class IRI="#Searching"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BinaryTree"/>
+        <Class IRI="#Tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BubbleSort"/>
+        <Class IRI="#Sorting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CircularLinkedList"/>
+        <Class IRI="#LinkedList"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CircularQueue"/>
+        <Class IRI="#Queue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DFS"/>
+        <Class IRI="#Searching"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DoubleEndedQueue"/>
+        <Class IRI="#Queue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DoubleHashing"/>
+        <Class IRI="#HashSearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DoublyCircularLinkedList"/>
+        <Class IRI="#CircularLinkedList"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DoublyLinkedList"/>
+        <Class IRI="#LinkedList"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graph"/>
+        <Class IRI="#NonLinearDataStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HashSearch"/>
+        <Class IRI="#Searching"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HeapSort"/>
+        <Class IRI="#Sorting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InFixExpression"/>
+        <Class IRI="#Expression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InOrderTraversal"/>
+        <Class IRI="#Traversal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InsertionSort"/>
+        <Class IRI="#Sorting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iteration"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KruskalAlgorithm"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LinearDataStructure"/>
+        <Class IRI="#DataStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LinearProbing"/>
+        <Class IRI="#HashSearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LinearSearch"/>
+        <Class IRI="#Searching"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LinkedList"/>
+        <Class IRI="#LinearDataStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MergeSort"/>
+        <Class IRI="#Sorting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MultinarySearchTree"/>
+        <Class IRI="#Tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonLinearDataStructure"/>
+        <Class IRI="#DataStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pointer"/>
+        <Class IRI="#LinearDataStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostFixExpression"/>
+        <Class IRI="#Expression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PostOrderTraversal"/>
+        <Class IRI="#Traversal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreFixExpression"/>
+        <Class IRI="#Expression"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PreOrderTraversal"/>
+        <Class IRI="#Traversal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimAlgorithm"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PriorityQueue"/>
+        <Class IRI="#Queue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuadraticProbing"/>
+        <Class IRI="#HashSearch"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Queue"/>
+        <Class IRI="#LinearDataStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuickSort"/>
+        <Class IRI="#Sorting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RadixSort"/>
+        <Class IRI="#Sorting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recursion"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Searching"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ShellSort"/>
+        <Class IRI="#Sorting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SinglyCircularLinkedList"/>
+        <Class IRI="#CircularLinkedList"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SinglyLinkedList"/>
+        <Class IRI="#LinkedList"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sorting"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpanningTree"/>
+        <Class IRI="#Tree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stack"/>
+        <Class IRI="#LinearDataStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThreadedBinaryTree"/>
+        <Class IRI="#BinaryTree"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tree"/>
+        <Class IRI="#NonLinearDataStructure"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Array"/>
+        <Class IRI="#LinkedList"/>
+        <Class IRI="#Pointer"/>
+        <Class IRI="#Queue"/>
+        <Class IRI="#Stack"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BFS"/>
+        <Class IRI="#BinarySearch"/>
+        <Class IRI="#DFS"/>
+        <Class IRI="#HashSearch"/>
+        <Class IRI="#LinearSearch"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BinaryTree"/>
+        <Class IRI="#MultinarySearchTree"/>
+        <Class IRI="#SpanningTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BubbleSort"/>
+        <Class IRI="#HeapSort"/>
+        <Class IRI="#InsertionSort"/>
+        <Class IRI="#MergeSort"/>
+        <Class IRI="#QuickSort"/>
+        <Class IRI="#RadixSort"/>
+        <Class IRI="#ShellSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CircularLinkedList"/>
+        <Class IRI="#DoublyLinkedList"/>
+        <Class IRI="#SinglyLinkedList"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CircularQueue"/>
+        <Class IRI="#DoubleEndedQueue"/>
+        <Class IRI="#PriorityQueue"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DoubleHashing"/>
+        <Class IRI="#LinearProbing"/>
+        <Class IRI="#QuadraticProbing"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DoublyCircularLinkedList"/>
+        <Class IRI="#SinglyCircularLinkedList"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Graph"/>
+        <Class IRI="#Tree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#KruskalAlgorithm"/>
+        <Class IRI="#PrimAlgorithm"/>
+        <Class IRI="#Searching"/>
+        <Class IRI="#Sorting"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#ADT</IRI>
+        <Literal datatypeIRI="&xsd;string">AbstractDatatype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ADT</IRI>
+        <Literal datatypeIRI="&xsd;string">AbstractDataType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#AVLTree</IRI>
+        <Literal datatypeIRI="&xsd;string">AVL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#AVLTree</IRI>
+        <Literal datatypeIRI="&xsd;string">AvlTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#AVLTree</IRI>
+        <Literal datatypeIRI="&xsd;string">AvlTrees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Array</IRI>
+        <Literal datatypeIRI="&xsd;string">Arrays</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#B+Tree</IRI>
+        <Literal datatypeIRI="&xsd;string">B+Trees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#B+Tree</IRI>
+        <Literal datatypeIRI="&xsd;string">BPlusTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#B+Tree</IRI>
+        <Literal datatypeIRI="&xsd;string">BPlusTrees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#B-Tree</IRI>
+        <Literal datatypeIRI="&xsd;string">B-Trees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#B-Tree</IRI>
+        <Literal datatypeIRI="&xsd;string">BMinusTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#B-Tree</IRI>
+        <Literal datatypeIRI="&xsd;string">BMinusTrees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#BFS</IRI>
+        <Literal datatypeIRI="&xsd;string">BreadthFirstSearch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#BinaryTree</IRI>
+        <Literal datatypeIRI="&xsd;string">BinaryTrees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasApplicationIn"/>
+        <IRI>#BinaryTree</IRI>
+        <IRI>#HuffmanCoding</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#CircularLinkedList</IRI>
+        <Literal datatypeIRI="&xsd;string">CircularLinkedLists</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#DFS</IRI>
+        <Literal datatypeIRI="&xsd;string">DepthFirstSearch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#DataStructure</IRI>
+        <Literal datatypeIRI="&xsd;string">DataStructures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has"/>
+        <IRI>#DataStructure</IRI>
+        <IRI>#Concept</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#DoublyCircularLinkedList</IRI>
+        <Literal datatypeIRI="&xsd;string">DoublyCircularLinkedLists</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#DoublyLinkedList</IRI>
+        <Literal datatypeIRI="&xsd;string">DoublyLinkedLists</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Graph</IRI>
+        <Literal datatypeIRI="&xsd;string">Graphs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isTraverseBy"/>
+        <IRI>#Graph</IRI>
+        <IRI>#BFS</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isTraverseBy"/>
+        <IRI>#Graph</IRI>
+        <IRI>#DFS</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#HashSearch</IRI>
+        <Literal datatypeIRI="&xsd;string">Hashing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#HeapSort</IRI>
+        <Literal datatypeIRI="&xsd;string">Heap</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#HuffmanCoding</IRI>
+        <Literal datatypeIRI="&xsd;string">HuffmanCode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#InFixExpression</IRI>
+        <Literal datatypeIRI="&xsd;string">InFix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#InFixExpression</IRI>
+        <Literal datatypeIRI="&xsd;string">Infix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#InOrderTraversal</IRI>
+        <Literal datatypeIRI="&xsd;string">InOrder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#InOrderTraversal</IRI>
+        <Literal datatypeIRI="&xsd;string">Inorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Iteration</IRI>
+        <Literal datatypeIRI="&xsd;string">Iterative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#KruskalAlgorithm</IRI>
+        <Literal datatypeIRI="&xsd;string">Kruskal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#KruskalAlgorithm</IRI>
+        <Literal datatypeIRI="&xsd;string">Kruskal's</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#KruskalAlgorithm</IRI>
+        <Literal datatypeIRI="&xsd;string">Kruskal'sAlgorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#usedToFind"/>
+        <IRI>#KruskalAlgorithm</IRI>
+        <IRI>#SpanningTree</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#LinkedList</IRI>
+        <Literal datatypeIRI="&xsd;string">LinkedLists</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#LinkedList</IRI>
+        <Literal datatypeIRI="&xsd;string">List</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#LinkedList</IRI>
+        <Literal datatypeIRI="&xsd;string">Lists</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#asAn"/>
+        <IRI>#LinkedList</IRI>
+        <IRI>#ADT</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#MultinarySearchTree</IRI>
+        <Literal datatypeIRI="&xsd;string">MultinarySearchTrees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#MultinarySearchTree</IRI>
+        <Literal datatypeIRI="&xsd;string">MultinaryTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#MultinarySearchTree</IRI>
+        <Literal datatypeIRI="&xsd;string">MultinaryTrees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#on"/>
+        <IRI>#Operation</IRI>
+        <IRI>#DataStructure</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Pointer</IRI>
+        <Literal datatypeIRI="&xsd;string">Node</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Pointer</IRI>
+        <Literal datatypeIRI="&xsd;string">Nodes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Pointer</IRI>
+        <Literal datatypeIRI="&xsd;string">Pointers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#PostFixExpression</IRI>
+        <Literal datatypeIRI="&xsd;string">PostFix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#PostFixExpression</IRI>
+        <Literal datatypeIRI="&xsd;string">Postfix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#PostOrderTraversal</IRI>
+        <Literal datatypeIRI="&xsd;string">PostOrder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#PostOrderTraversal</IRI>
+        <Literal datatypeIRI="&xsd;string">Postorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#PreFixExpression</IRI>
+        <Literal datatypeIRI="&xsd;string">PreFix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#PreFixExpression</IRI>
+        <Literal datatypeIRI="&xsd;string">Prefix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#PreOrderTraversal</IRI>
+        <Literal datatypeIRI="&xsd;string">PreOrder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#PreOrderTraversal</IRI>
+        <Literal datatypeIRI="&xsd;string">Preorder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#PrimAlgorithm</IRI>
+        <Literal datatypeIRI="&xsd;string">Prim</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#PrimAlgorithm</IRI>
+        <Literal datatypeIRI="&xsd;string">Prim&apos;s</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#PrimAlgorithm</IRI>
+        <Literal datatypeIRI="&xsd;string">Prim&apos;sAlgorithm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#usedToFind"/>
+        <IRI>#PrimAlgorithm</IRI>
+        <IRI>#SpanningTree</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Queue</IRI>
+        <Literal datatypeIRI="&xsd;string">FIFO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Queue</IRI>
+        <Literal datatypeIRI="&xsd;string">FirstInFirstOut</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Queue</IRI>
+        <Literal datatypeIRI="&xsd;string">Queues</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#asAn"/>
+        <IRI>#Queue</IRI>
+        <IRI>#ADT</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Recursion</IRI>
+        <Literal datatypeIRI="&xsd;string">Recursive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Searching</IRI>
+        <Literal datatypeIRI="&xsd;string">Find</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Searching</IRI>
+        <Literal datatypeIRI="&xsd;string">Search</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#SinglyCircularLinkedList</IRI>
+        <Literal datatypeIRI="&xsd;string">SinglyCircularLinkedLists</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#SinglyLinkedList</IRI>
+        <Literal datatypeIRI="&xsd;string">SinglyLinkedLists</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Sorting</IRI>
+        <Literal datatypeIRI="&xsd;string">Arrange</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Sorting</IRI>
+        <Literal datatypeIRI="&xsd;string">Rearrange</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Sorting</IRI>
+        <Literal datatypeIRI="&xsd;string">Sort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#SpanningTree</IRI>
+        <Literal datatypeIRI="&xsd;string">MinimumSpanningTrees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#SpanningTree</IRI>
+        <Literal datatypeIRI="&xsd;string">MinimunSpanningTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#SpanningTree</IRI>
+        <Literal datatypeIRI="&xsd;string">SpanningTrees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Stack</IRI>
+        <Literal datatypeIRI="&xsd;string">LIFO</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Stack</IRI>
+        <Literal datatypeIRI="&xsd;string">LastInFirstOut</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#asAn"/>
+        <IRI>#Stack</IRI>
+        <IRI>#ADT</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#ThreadedBinaryTree</IRI>
+        <Literal datatypeIRI="&xsd;string">ThreadedBinaryTrees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Traversal</IRI>
+        <Literal datatypeIRI="&xsd;string">Traverse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#alternative"/>
+        <IRI>#Tree</IRI>
+        <Literal datatypeIRI="&xsd;string">Trees</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isExpressedUsing"/>
+        <IRI>#Tree</IRI>
+        <IRI>#Expression</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#isTraverseBy"/>
+        <IRI>#Tree</IRI>
+        <IRI>#Traversal</IRI>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

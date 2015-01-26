@@ -1,0 +1,2221 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7">
+    <Prefix name="" IRI="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Attributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Box_CSS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS32D_Transforms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS33D_Transforms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Animations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Border"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Floating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Gallery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Gradients"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Grouping_Nesting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Image"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Introduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Margin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Opacity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Outline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Padding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Postitioning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Text_Effects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Transforms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS3Transitions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSSBackgrounds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSSId_Class"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSSIntroduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSSLinks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSSLists"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSSSyntax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSSTables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSSTexts_Fonts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS_Advanced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSS_Basics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canvas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Elements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormAttributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormElements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormHandling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FormValidation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frames"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HTML"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HTML5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HTML5Elements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HTML5Forms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HTML5Graphics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HTML5Introduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HTML5Media"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HTML5Semantics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Html_JavaScript"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Images"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JSAdvanced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JSBasics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScript"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptArray"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptDatatypes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptFor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptFunctions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptIf_Else"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptIntroduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptLoop_Statements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptMath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptNumber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptObjects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptOperators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptStrings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptSwitch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptValidations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptVariables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScriptWhile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Layouts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Linking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lists"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPAdvanced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPArrays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPBasics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPCookies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPDBCreate_DB/Table"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPDBDelete"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPDBInsert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPDBMySQL_Connect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPDBMySQL_Introduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPDBODBC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPDBOrder_By"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPDBSelect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPDBWhere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPDatabase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPDatatypes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPEcho/Print"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPEmail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPExceptions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPFor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPForms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPFunctions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPIf_Else"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPInstallation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPIntroduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPLoop_Statements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPOperators_Constants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPSeesion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPSwitch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPSyntax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPVariables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PHPWhile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLAVERAGE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLAdvanced"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLAlter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLBasics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLCOUNT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLCommand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLConstraints"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLDates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLDelete"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLDrop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLFIRST"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLForeign_Key"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLFull"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLFunctions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLGROUP_BY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLHAVING"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLInner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLIntroduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLJoins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLLAST"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLLeft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLMAX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLMIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLNot_Null"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLPrimary_Key"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLROUND"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLRight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLSUM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLSelect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLSyntax"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLUnique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLUpdate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQLViews"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subjects"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Video"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Has"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#IsA"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#IsUnder"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#doneUsing"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#existsIn"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#expressedAs"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#foundUsing"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasType"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#implemented"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#isSearchedBy"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#isSortedBy"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#isTypeOf"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#traversedAs"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#usedFor"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#usedForExpressing"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#usedForFinding"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#usedForImplementation"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#usedForTraversing"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#uses"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Attributes"/>
+        <Class IRI="#Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Audio"/>
+        <Class IRI="#HTML5Media"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basics"/>
+        <Class IRI="#HTML"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Box_CSS"/>
+        <Class IRI="#CSS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS"/>
+        <Class IRI="#Subjects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3"/>
+        <Class IRI="#CSS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS32D_Transforms"/>
+        <Class IRI="#CSS3Transforms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS33D_Transforms"/>
+        <Class IRI="#CSS3Transforms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Animations"/>
+        <Class IRI="#CSS3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Border"/>
+        <Class IRI="#Box_CSS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Floating"/>
+        <Class IRI="#CSS_Advanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Gallery"/>
+        <Class IRI="#CSS3Image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Gradients"/>
+        <Class IRI="#CSS3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Grouping_Nesting"/>
+        <Class IRI="#CSS_Advanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Image"/>
+        <Class IRI="#CSS_Advanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Introduction"/>
+        <Class IRI="#CSS3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Margin"/>
+        <Class IRI="#Box_CSS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Opacity"/>
+        <Class IRI="#CSS3Image"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Outline"/>
+        <Class IRI="#Box_CSS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Padding"/>
+        <Class IRI="#Box_CSS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Postitioning"/>
+        <Class IRI="#CSS_Advanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Text_Effects"/>
+        <Class IRI="#CSS3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Transforms"/>
+        <Class IRI="#CSS3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS3Transitions"/>
+        <Class IRI="#CSS3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSSBackgrounds"/>
+        <Class IRI="#CSS_Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSSId_Class"/>
+        <Class IRI="#CSS_Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSSIntroduction"/>
+        <Class IRI="#CSS_Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSSLinks"/>
+        <Class IRI="#CSS_Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSSLists"/>
+        <Class IRI="#CSS_Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSSSyntax"/>
+        <Class IRI="#CSS_Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSSTables"/>
+        <Class IRI="#CSS_Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSSTexts_Fonts"/>
+        <Class IRI="#CSS_Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS_Advanced"/>
+        <Class IRI="#CSS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSS_Basics"/>
+        <Class IRI="#CSS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canvas"/>
+        <Class IRI="#HTML5Graphics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elements"/>
+        <Class IRI="#Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormAttributes"/>
+        <Class IRI="#HTML5Forms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormElements"/>
+        <Class IRI="#HTML5Forms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormHandling"/>
+        <Class IRI="#PHPForms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FormValidation"/>
+        <Class IRI="#PHPForms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forms"/>
+        <Class IRI="#Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frames"/>
+        <Class IRI="#Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HTML"/>
+        <Class IRI="#Subjects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HTML5"/>
+        <Class IRI="#HTML"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HTML5Elements"/>
+        <Class IRI="#HTML5Introduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HTML5Forms"/>
+        <Class IRI="#HTML5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HTML5Graphics"/>
+        <Class IRI="#HTML5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HTML5Introduction"/>
+        <Class IRI="#HTML5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HTML5Media"/>
+        <Class IRI="#HTML5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HTML5Semantics"/>
+        <Class IRI="#HTML5Introduction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Html_JavaScript"/>
+        <Class IRI="#Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Images"/>
+        <Class IRI="#Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JSAdvanced"/>
+        <Class IRI="#JavaScript"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JSBasics"/>
+        <Class IRI="#JavaScript"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScript"/>
+        <Class IRI="#Subjects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptArray"/>
+        <Class IRI="#JSAdvanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptDatatypes"/>
+        <Class IRI="#JSBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptDate"/>
+        <Class IRI="#JSAdvanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptFor"/>
+        <Class IRI="#JavaScriptLoop_Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptFunctions"/>
+        <Class IRI="#JSBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptIf_Else"/>
+        <Class IRI="#JavaScriptLoop_Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptIntroduction"/>
+        <Class IRI="#JSBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptLoop_Statements"/>
+        <Class IRI="#JSBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptMath"/>
+        <Class IRI="#JSAdvanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptNumber"/>
+        <Class IRI="#JSAdvanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptObjects"/>
+        <Class IRI="#JSAdvanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptOperators"/>
+        <Class IRI="#JSBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptStrings"/>
+        <Class IRI="#JSAdvanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptSwitch"/>
+        <Class IRI="#JavaScriptLoop_Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptValidations"/>
+        <Class IRI="#JSBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptVariables"/>
+        <Class IRI="#JSBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScriptWhile"/>
+        <Class IRI="#JavaScriptLoop_Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Layouts"/>
+        <Class IRI="#Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Linking"/>
+        <Class IRI="#Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lists"/>
+        <Class IRI="#Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHP"/>
+        <Class IRI="#Subjects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPAdvanced"/>
+        <Class IRI="#PHP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPArrays"/>
+        <Class IRI="#PHPBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPBasics"/>
+        <Class IRI="#PHP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPCookies"/>
+        <Class IRI="#PHPAdvanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPDBCreate_DB/Table"/>
+        <Class IRI="#PHPDatabase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPDBDelete"/>
+        <Class IRI="#PHPDBCreate_DB/Table"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPDBInsert"/>
+        <Class IRI="#PHPDBCreate_DB/Table"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPDBMySQL_Connect"/>
+        <Class IRI="#PHPDatabase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPDBMySQL_Introduction"/>
+        <Class IRI="#PHPDatabase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPDBODBC"/>
+        <Class IRI="#PHPDatabase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPDBOrder_By"/>
+        <Class IRI="#PHPDBCreate_DB/Table"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPDBSelect"/>
+        <Class IRI="#PHPDBCreate_DB/Table"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPDBWhere"/>
+        <Class IRI="#PHPDBCreate_DB/Table"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPDatabase"/>
+        <Class IRI="#PHP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPDatatypes"/>
+        <Class IRI="#PHPBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPDate"/>
+        <Class IRI="#PHPAdvanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPEcho/Print"/>
+        <Class IRI="#PHPBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPEmail"/>
+        <Class IRI="#PHPAdvanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPExceptions"/>
+        <Class IRI="#PHPAdvanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPFor"/>
+        <Class IRI="#PHPLoop_Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPForms"/>
+        <Class IRI="#PHP"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPFunctions"/>
+        <Class IRI="#PHPBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPIf_Else"/>
+        <Class IRI="#PHPLoop_Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPInstallation"/>
+        <Class IRI="#PHPBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPIntroduction"/>
+        <Class IRI="#PHPBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPLoop_Statements"/>
+        <Class IRI="#PHPBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPOperators_Constants"/>
+        <Class IRI="#PHPBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPSeesion"/>
+        <Class IRI="#PHPAdvanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPSwitch"/>
+        <Class IRI="#PHPLoop_Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPSyntax"/>
+        <Class IRI="#PHPBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPVariables"/>
+        <Class IRI="#PHPBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PHPWhile"/>
+        <Class IRI="#PHPLoop_Statements"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQL"/>
+        <Class IRI="#Subjects"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLAVERAGE"/>
+        <Class IRI="#SQLFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLAdvanced"/>
+        <Class IRI="#SQL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLAlter"/>
+        <Class IRI="#SQLCommand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLBasics"/>
+        <Class IRI="#SQL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLCOUNT"/>
+        <Class IRI="#SQLFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLCommand"/>
+        <Class IRI="#SQLBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLConstraints"/>
+        <Class IRI="#SQLDates"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLDates"/>
+        <Class IRI="#SQLAdvanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLDelete"/>
+        <Class IRI="#SQLCommand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLDrop"/>
+        <Class IRI="#SQLCommand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLFIRST"/>
+        <Class IRI="#SQLFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLForeign_Key"/>
+        <Class IRI="#SQLConstraints"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLFull"/>
+        <Class IRI="#SQLJoins"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLFunctions"/>
+        <Class IRI="#SQL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLGROUP_BY"/>
+        <Class IRI="#SQLFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLHAVING"/>
+        <Class IRI="#SQLFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLInner"/>
+        <Class IRI="#SQLJoins"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLIntroduction"/>
+        <Class IRI="#SQLBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLJoins"/>
+        <Class IRI="#SQLAdvanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLLAST"/>
+        <Class IRI="#SQLFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLLeft"/>
+        <Class IRI="#SQLJoins"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLMAX"/>
+        <Class IRI="#SQLFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLMIN"/>
+        <Class IRI="#SQLFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLNot_Null"/>
+        <Class IRI="#SQLConstraints"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLPrimary_Key"/>
+        <Class IRI="#SQLConstraints"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLROUND"/>
+        <Class IRI="#SQLFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLRight"/>
+        <Class IRI="#SQLJoins"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLSUM"/>
+        <Class IRI="#SQLFunctions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLSelect"/>
+        <Class IRI="#SQLCommand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLSyntax"/>
+        <Class IRI="#SQLBasics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLUnique"/>
+        <Class IRI="#SQLConstraints"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLUpdate"/>
+        <Class IRI="#SQLCommand"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQLViews"/>
+        <Class IRI="#SQLAdvanced"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tables"/>
+        <Class IRI="#Basics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video"/>
+        <Class IRI="#HTML5Media"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Attributes"/>
+        <Class IRI="#Elements"/>
+        <Class IRI="#Forms"/>
+        <Class IRI="#Frames"/>
+        <Class IRI="#Html_JavaScript"/>
+        <Class IRI="#Images"/>
+        <Class IRI="#Layouts"/>
+        <Class IRI="#Linking"/>
+        <Class IRI="#Lists"/>
+        <Class IRI="#Tables"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Audio"/>
+        <Class IRI="#Video"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CSS32D_Transforms"/>
+        <Class IRI="#CSS33D_Transforms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CSS3Animations"/>
+        <Class IRI="#CSS3Gradients"/>
+        <Class IRI="#CSS3Introduction"/>
+        <Class IRI="#CSS3Text_Effects"/>
+        <Class IRI="#CSS3Transforms"/>
+        <Class IRI="#CSS3Transitions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CSS3Border"/>
+        <Class IRI="#CSS3Margin"/>
+        <Class IRI="#CSS3Outline"/>
+        <Class IRI="#CSS3Padding"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CSS3Floating"/>
+        <Class IRI="#CSS3Grouping_Nesting"/>
+        <Class IRI="#CSS3Image"/>
+        <Class IRI="#CSS3Postitioning"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CSS3Gallery"/>
+        <Class IRI="#CSS3Opacity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#CSSBackgrounds"/>
+        <Class IRI="#CSSId_Class"/>
+        <Class IRI="#CSSIntroduction"/>
+        <Class IRI="#CSSLinks"/>
+        <Class IRI="#CSSLists"/>
+        <Class IRI="#CSSSyntax"/>
+        <Class IRI="#CSSTables"/>
+        <Class IRI="#CSSTexts_Fonts"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FormAttributes"/>
+        <Class IRI="#FormElements"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#FormHandling"/>
+        <Class IRI="#FormValidation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HTML5Elements"/>
+        <Class IRI="#HTML5Semantics"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#JSAdvanced"/>
+        <Class IRI="#JSBasics"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#JavaScriptArray"/>
+        <Class IRI="#JavaScriptDate"/>
+        <Class IRI="#JavaScriptMath"/>
+        <Class IRI="#JavaScriptNumber"/>
+        <Class IRI="#JavaScriptObjects"/>
+        <Class IRI="#JavaScriptStrings"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#JavaScriptDatatypes"/>
+        <Class IRI="#JavaScriptFunctions"/>
+        <Class IRI="#JavaScriptIntroduction"/>
+        <Class IRI="#JavaScriptLoop_Statements"/>
+        <Class IRI="#JavaScriptOperators"/>
+        <Class IRI="#JavaScriptValidations"/>
+        <Class IRI="#JavaScriptVariables"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#JavaScriptFor"/>
+        <Class IRI="#JavaScriptIf_Else"/>
+        <Class IRI="#JavaScriptSwitch"/>
+        <Class IRI="#JavaScriptWhile"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PHPAdvanced"/>
+        <Class IRI="#PHPBasics"/>
+        <Class IRI="#PHPDatabase"/>
+        <Class IRI="#PHPForms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PHPArrays"/>
+        <Class IRI="#PHPDatatypes"/>
+        <Class IRI="#PHPEcho/Print"/>
+        <Class IRI="#PHPFunctions"/>
+        <Class IRI="#PHPInstallation"/>
+        <Class IRI="#PHPIntroduction"/>
+        <Class IRI="#PHPLoop_Statements"/>
+        <Class IRI="#PHPOperators_Constants"/>
+        <Class IRI="#PHPSyntax"/>
+        <Class IRI="#PHPVariables"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PHPCookies"/>
+        <Class IRI="#PHPDate"/>
+        <Class IRI="#PHPEmail"/>
+        <Class IRI="#PHPExceptions"/>
+        <Class IRI="#PHPSeesion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PHPDBCreate_DB/Table"/>
+        <Class IRI="#PHPDBMySQL_Connect"/>
+        <Class IRI="#PHPDBMySQL_Introduction"/>
+        <Class IRI="#PHPDBODBC"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PHPDBDelete"/>
+        <Class IRI="#PHPDBInsert"/>
+        <Class IRI="#PHPDBOrder_By"/>
+        <Class IRI="#PHPDBSelect"/>
+        <Class IRI="#PHPDBWhere"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PHPFor"/>
+        <Class IRI="#PHPIf_Else"/>
+        <Class IRI="#PHPSwitch"/>
+        <Class IRI="#PHPWhile"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SQLAVERAGE"/>
+        <Class IRI="#SQLCOUNT"/>
+        <Class IRI="#SQLFIRST"/>
+        <Class IRI="#SQLGROUP_BY"/>
+        <Class IRI="#SQLHAVING"/>
+        <Class IRI="#SQLLAST"/>
+        <Class IRI="#SQLMAX"/>
+        <Class IRI="#SQLMIN"/>
+        <Class IRI="#SQLROUND"/>
+        <Class IRI="#SQLSUM"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SQLAdvanced"/>
+        <Class IRI="#SQLBasics"/>
+        <Class IRI="#SQLFunctions"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SQLAlter"/>
+        <Class IRI="#SQLDelete"/>
+        <Class IRI="#SQLDrop"/>
+        <Class IRI="#SQLSelect"/>
+        <Class IRI="#SQLUpdate"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SQLCommand"/>
+        <Class IRI="#SQLIntroduction"/>
+        <Class IRI="#SQLSyntax"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SQLConstraints"/>
+        <Class IRI="#SQLDates"/>
+        <Class IRI="#SQLJoins"/>
+        <Class IRI="#SQLViews"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SQLForeign_Key"/>
+        <Class IRI="#SQLNot_Null"/>
+        <Class IRI="#SQLPrimary_Key"/>
+        <Class IRI="#SQLUnique"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#SQLFull"/>
+        <Class IRI="#SQLInner"/>
+        <Class IRI="#SQLLeft"/>
+        <Class IRI="#SQLRight"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#Attributes</IRI>
+        <IRI>#Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#foundUsing"/>
+        <IRI>#Attributes</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://www.google.com</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#Audio</IRI>
+        <IRI>#HTML5Media</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <IRI>#Basics</IRI>
+        <IRI>#HTML</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <IRI>#Box_CSS</IRI>
+        <IRI>#CSS</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsA"/>
+        <IRI>#CSS</IRI>
+        <IRI>#Subjects</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <IRI>#CSS3</IRI>
+        <IRI>#CSS</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#CSS32D_Transforms</IRI>
+        <IRI>#CSS3Transforms</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#CSS33D_Transforms</IRI>
+        <IRI>#CSS3Transforms</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSS3Animations</IRI>
+        <IRI>#CSS3</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSS3Border</IRI>
+        <IRI>#Box_CSS</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSS3Floating</IRI>
+        <IRI>#CSS_Advanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#CSS3Gallery</IRI>
+        <IRI>#CSS3Image</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSS3Gradients</IRI>
+        <IRI>#CSS3</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSS3Grouping_Nesting</IRI>
+        <IRI>#CSS_Advanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#CSS3Image</IRI>
+        <IRI>#CSS3Gallery</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#CSS3Image</IRI>
+        <IRI>#CSS3Opacity</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSS3Image</IRI>
+        <IRI>#CSS_Advanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSS3Introduction</IRI>
+        <IRI>#CSS3</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSS3Margin</IRI>
+        <IRI>#Box_CSS</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#CSS3Opacity</IRI>
+        <IRI>#CSS3Image</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSS3Outline</IRI>
+        <IRI>#Box_CSS</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSS3Padding</IRI>
+        <IRI>#Box_CSS</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSS3Postitioning</IRI>
+        <IRI>#CSS_Advanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSS3Text_Effects</IRI>
+        <IRI>#CSS3</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#CSS3Transforms</IRI>
+        <IRI>#CSS32D_Transforms</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#CSS3Transforms</IRI>
+        <IRI>#CSS33D_Transforms</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSS3Transforms</IRI>
+        <IRI>#CSS3</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSS3Transitions</IRI>
+        <IRI>#CSS3</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSSBackgrounds</IRI>
+        <IRI>#CSS_Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSSId_Class</IRI>
+        <IRI>#CSS_Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSSIntroduction</IRI>
+        <IRI>#CSS_Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSSLinks</IRI>
+        <IRI>#CSS_Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSSLists</IRI>
+        <IRI>#CSS_Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSSSyntax</IRI>
+        <IRI>#CSS_Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSSTables</IRI>
+        <IRI>#CSS_Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#CSSTexts_Fonts</IRI>
+        <IRI>#CSS_Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <IRI>#CSS_Advanced</IRI>
+        <IRI>#CSS</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <IRI>#CSS_Basics</IRI>
+        <IRI>#CSS</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#Canvas</IRI>
+        <IRI>#HTML5Graphics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#Elements</IRI>
+        <IRI>#Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#FormAttributes</IRI>
+        <IRI>#HTML5Forms</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#FormElements</IRI>
+        <IRI>#HTML5Forms</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#FormHandling</IRI>
+        <IRI>#PHPForms</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#FormValidation</IRI>
+        <IRI>#PHPForms</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#Forms</IRI>
+        <IRI>#Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#Frames</IRI>
+        <IRI>#Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsA"/>
+        <IRI>#HTML</IRI>
+        <IRI>#Subjects</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <IRI>#HTML5</IRI>
+        <IRI>#HTML</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#HTML5Elements</IRI>
+        <IRI>#HTML5Introduction</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#HTML5Forms</IRI>
+        <IRI>#FormAttributes</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#HTML5Forms</IRI>
+        <IRI>#FormElements</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#HTML5Forms</IRI>
+        <IRI>#HTML5</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#HTML5Graphics</IRI>
+        <IRI>#Canvas</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#HTML5Graphics</IRI>
+        <IRI>#HTML5</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#HTML5Introduction</IRI>
+        <IRI>#HTML5Elements</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#HTML5Introduction</IRI>
+        <IRI>#HTML5Semantics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#HTML5Introduction</IRI>
+        <IRI>#HTML5</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#HTML5Media</IRI>
+        <IRI>#Audio</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#HTML5Media</IRI>
+        <IRI>#Video</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#HTML5Media</IRI>
+        <IRI>#HTML5</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#HTML5Semantics</IRI>
+        <IRI>#HTML5Introduction</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#Html_JavaScript</IRI>
+        <IRI>#Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#Images</IRI>
+        <IRI>#Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <IRI>#JSAdvanced</IRI>
+        <IRI>#JavaScript</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <IRI>#JSBasics</IRI>
+        <IRI>#JavaScript</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsA"/>
+        <IRI>#JavaScript</IRI>
+        <IRI>#Subjects</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#JavaScriptArray</IRI>
+        <IRI>#JSAdvanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#JavaScriptDatatypes</IRI>
+        <IRI>#JSBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#JavaScriptDate</IRI>
+        <IRI>#JSAdvanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#JavaScriptFor</IRI>
+        <IRI>#JavaScriptLoop_Statements</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#JavaScriptFunctions</IRI>
+        <IRI>#JSBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#JavaScriptIf_Else</IRI>
+        <IRI>#JavaScriptLoop_Statements</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#JavaScriptIntroduction</IRI>
+        <IRI>#JSBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#JavaScriptLoop_Statements</IRI>
+        <IRI>#JavaScriptFor</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#JavaScriptLoop_Statements</IRI>
+        <IRI>#JavaScriptIf_Else</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#JavaScriptLoop_Statements</IRI>
+        <IRI>#JavaScriptSwitch</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#JavaScriptLoop_Statements</IRI>
+        <IRI>#JavaScriptWhile</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#JavaScriptLoop_Statements</IRI>
+        <IRI>#JSBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#JavaScriptMath</IRI>
+        <IRI>#JSAdvanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#JavaScriptNumber</IRI>
+        <IRI>#JSAdvanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#JavaScriptObjects</IRI>
+        <IRI>#JSAdvanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#JavaScriptOperators</IRI>
+        <IRI>#JSBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#JavaScriptStrings</IRI>
+        <IRI>#JSAdvanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#JavaScriptSwitch</IRI>
+        <IRI>#JavaScriptLoop_Statements</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#JavaScriptValidations</IRI>
+        <IRI>#JSBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#JavaScriptVariables</IRI>
+        <IRI>#JSBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#JavaScriptWhile</IRI>
+        <IRI>#JavaScriptLoop_Statements</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#Layouts</IRI>
+        <IRI>#Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#Linking</IRI>
+        <IRI>#Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#Lists</IRI>
+        <IRI>#Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsA"/>
+        <IRI>#PHP</IRI>
+        <IRI>#Subjects</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <IRI>#PHPAdvanced</IRI>
+        <IRI>#PHP</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPArrays</IRI>
+        <IRI>#PHPBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <IRI>#PHPBasics</IRI>
+        <IRI>#PHP</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPCookies</IRI>
+        <IRI>#PHPAdvanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#PHPDBCreate_DB/Table</IRI>
+        <IRI>#PHPDBDelete</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#PHPDBCreate_DB/Table</IRI>
+        <IRI>#PHPDBInsert</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#PHPDBCreate_DB/Table</IRI>
+        <IRI>#PHPDBOrder_By</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#PHPDBCreate_DB/Table</IRI>
+        <IRI>#PHPDBSelect</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#PHPDBCreate_DB/Table</IRI>
+        <IRI>#PHPDBWhere</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPDBCreate_DB/Table</IRI>
+        <IRI>#PHPDatabase</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#PHPDBDelete</IRI>
+        <IRI>#PHPDBCreate_DB/Table</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#PHPDBInsert</IRI>
+        <IRI>#PHPDBCreate_DB/Table</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPDBMySQL_Connect</IRI>
+        <IRI>#PHPDatabase</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPDBMySQL_Introduction</IRI>
+        <IRI>#PHPDatabase</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPDBODBC</IRI>
+        <IRI>#PHPDatabase</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#PHPDBOrder_By</IRI>
+        <IRI>#PHPDBCreate_DB/Table</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#PHPDBSelect</IRI>
+        <IRI>#PHPDBCreate_DB/Table</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#PHPDBWhere</IRI>
+        <IRI>#PHPDBCreate_DB/Table</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <IRI>#PHPDatabase</IRI>
+        <IRI>#PHP</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPDatatypes</IRI>
+        <IRI>#PHPBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPDate</IRI>
+        <IRI>#PHPAdvanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPEcho/Print</IRI>
+        <IRI>#PHPBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPEmail</IRI>
+        <IRI>#PHPAdvanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPExceptions</IRI>
+        <IRI>#PHPAdvanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#PHPFor</IRI>
+        <IRI>#PHPLoop_Statements</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <IRI>#PHPForms</IRI>
+        <IRI>#PHP</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPFunctions</IRI>
+        <IRI>#PHPBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#PHPIf_Else</IRI>
+        <IRI>#PHPLoop_Statements</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPInstallation</IRI>
+        <IRI>#PHPBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPIntroduction</IRI>
+        <IRI>#PHPBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#PHPLoop_Statements</IRI>
+        <IRI>#PHPFor</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#PHPLoop_Statements</IRI>
+        <IRI>#PHPIf_Else</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#PHPLoop_Statements</IRI>
+        <IRI>#PHPSwitch</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#PHPLoop_Statements</IRI>
+        <IRI>#PHPWhile</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPLoop_Statements</IRI>
+        <IRI>#PHPBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPOperators_Constants</IRI>
+        <IRI>#PHPBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPSeesion</IRI>
+        <IRI>#PHPAdvanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#PHPSwitch</IRI>
+        <IRI>#PHPLoop_Statements</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPSyntax</IRI>
+        <IRI>#PHPBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#PHPVariables</IRI>
+        <IRI>#PHPBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#PHPWhile</IRI>
+        <IRI>#PHPLoop_Statements</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsA"/>
+        <IRI>#SQL</IRI>
+        <IRI>#Subjects</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLAVERAGE</IRI>
+        <IRI>#SQLFunctions</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <IRI>#SQLAdvanced</IRI>
+        <IRI>#SQL</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#SQLAlter</IRI>
+        <IRI>#SQLCommand</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <IRI>#SQLBasics</IRI>
+        <IRI>#SQL</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLCOUNT</IRI>
+        <IRI>#SQLFunctions</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#SQLCommand</IRI>
+        <IRI>#SQLAlter</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#SQLCommand</IRI>
+        <IRI>#SQLDelete</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#SQLCommand</IRI>
+        <IRI>#SQLDrop</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#SQLCommand</IRI>
+        <IRI>#SQLSelect</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#SQLCommand</IRI>
+        <IRI>#SQLUpdate</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLCommand</IRI>
+        <IRI>#SQLBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#SQLConstraints</IRI>
+        <IRI>#SQLForeign_Key</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#SQLConstraints</IRI>
+        <IRI>#SQLNot_Null</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#SQLConstraints</IRI>
+        <IRI>#SQLPrimary_Key</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#SQLConstraints</IRI>
+        <IRI>#SQLUnique</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLConstraints</IRI>
+        <IRI>#SQLAdvanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLDates</IRI>
+        <IRI>#SQLAdvanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#SQLDelete</IRI>
+        <IRI>#SQLCommand</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#SQLDrop</IRI>
+        <IRI>#SQLCommand</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLFIRST</IRI>
+        <IRI>#SQLFunctions</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#SQLForeign_Key</IRI>
+        <IRI>#SQLConstraints</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#SQLFull</IRI>
+        <IRI>#SQLJoins</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <IRI>#SQLFunctions</IRI>
+        <IRI>#SQL</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLGROUP_BY</IRI>
+        <IRI>#SQLFunctions</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLHAVING</IRI>
+        <IRI>#SQLFunctions</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#SQLInner</IRI>
+        <IRI>#SQLJoins</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLIntroduction</IRI>
+        <IRI>#SQLBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#SQLJoins</IRI>
+        <IRI>#SQLFull</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#SQLJoins</IRI>
+        <IRI>#SQLInner</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#SQLJoins</IRI>
+        <IRI>#SQLLeft</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Has"/>
+        <IRI>#SQLJoins</IRI>
+        <IRI>#SQLRight</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLJoins</IRI>
+        <IRI>#SQLAdvanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLLAST</IRI>
+        <IRI>#SQLFunctions</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#SQLLeft</IRI>
+        <IRI>#SQLJoins</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLMAX</IRI>
+        <IRI>#SQLFunctions</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLMIN</IRI>
+        <IRI>#SQLFunctions</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#SQLNot_Null</IRI>
+        <IRI>#SQLConstraints</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#SQLPrimary_Key</IRI>
+        <IRI>#SQLConstraints</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLROUND</IRI>
+        <IRI>#SQLFunctions</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#SQLRight</IRI>
+        <IRI>#SQLJoins</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLSUM</IRI>
+        <IRI>#SQLFunctions</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#SQLSelect</IRI>
+        <IRI>#SQLCommand</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLSyntax</IRI>
+        <IRI>#SQLBasics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#SQLUnique</IRI>
+        <IRI>#SQLConstraints</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#SQLUpdate</IRI>
+        <IRI>#SQLCommand</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#SQLViews</IRI>
+        <IRI>#SQLAdvanced</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <IRI>#Tables</IRI>
+        <IRI>#Basics</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <IRI>#Video</IRI>
+        <IRI>#HTML5Media</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#has"/>
+        <AbbreviatedIRI>owl:topObjectProperty</AbbreviatedIRI>
+        <Literal datatypeIRI="&xsd;string"></Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#Has"/>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#IsATopicOf"/>
+        <AnnotationProperty IRI="#IsA"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="#IsUnder"/>
+        <AnnotationProperty IRI="#IsASubTopicOf"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

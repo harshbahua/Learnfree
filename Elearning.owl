@@ -1,0 +1,1861 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Has -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Has">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#IsASubTopicOf"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#IsA -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#IsA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#IsASubTopicOf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#IsASubTopicOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#IsATopicOf"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#IsATopicOf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#IsATopicOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#IsA"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#IsUnder -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#IsUnder">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#IsASubTopicOf"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#doneUsing -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#doneUsing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#existsIn -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#existsIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#expressedAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#expressedAs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#foundUsing -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#foundUsing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#has -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#has"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#hasType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#hasType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#implemented -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#implemented"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#isSearchedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#isSearchedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#isSortedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#isSortedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#isTypeOf -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#isTypeOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#traversedAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#traversedAs"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#usedFor -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#usedFor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#usedForExpressing -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#usedForExpressing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#usedForFinding -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#usedForFinding"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#usedForImplementation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#usedForImplementation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#usedForTraversing -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#usedForTraversing"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#uses -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#uses"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Attributes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Attributes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+        <foundUsing>http://www.w3schools.com/html/html_attributes.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Audio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Audio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Media"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Video"/>
+        <foundUsing>http://www.w3schools.com/html/html5_audio.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Media"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML"/>
+        <IsATopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Box_CSS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Box_CSS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS"/>
+        <IsATopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Subjects"/>
+        <IsA rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Subjects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS"/>
+        <IsATopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS32D_Transforms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS32D_Transforms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Transforms"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS33D_Transforms"/>
+        <foundUsing>http://www.w3schools.com/css/css3_2dtransforms.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Transforms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS33D_Transforms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS33D_Transforms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Transforms"/>
+        <foundUsing>http://www.w3schools.com/css/css3_3dtransforms.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Transforms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Animations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Animations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3"/>
+        <foundUsing>http://www.w3schools.com/css/css3_animations.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Border -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Border">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Box_CSS"/>
+        <foundUsing>http://www.w3schools.com/css/css3_borders.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Box_CSS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Floating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Floating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Advanced"/>
+        <foundUsing>http://www.w3schools.com/css/css_float.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Advanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Gallery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Gallery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Image"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Opacity"/>
+        <foundUsing>http://www.w3schools.com/css/css_image_gallery.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Image"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Gradients -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Gradients">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3"/>
+        <foundUsing>http://www.w3schools.com/css/css3_gradients.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Grouping_Nesting -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Grouping_Nesting">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Advanced"/>
+        <foundUsing>http://www.w3schools.com/css/css_grouping_nesting.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Advanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Image -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Image">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Advanced"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Gallery"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Opacity"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Advanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Introduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Introduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3"/>
+        <foundUsing>http://www.w3schools.com/css/css3_intro.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Margin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Margin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Box_CSS"/>
+        <foundUsing>http://www.w3schools.com/css/css_margin.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Box_CSS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Opacity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Opacity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Image"/>
+        <foundUsing>http://www.w3schools.com/css/css_image_transparency.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Image"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Outline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Outline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Box_CSS"/>
+        <foundUsing>http://www.w3schools.com/css/css_outline.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Box_CSS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Padding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Padding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Box_CSS"/>
+        <foundUsing>http://www.w3schools.com/css/css_padding.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Box_CSS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Postitioning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Postitioning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Advanced"/>
+        <foundUsing>http://www.w3schools.com/css/css_positioning.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Advanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Text_Effects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Text_Effects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3"/>
+        <foundUsing>http://www.w3schools.com/css/css3_text_effects.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Transforms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Transforms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS32D_Transforms"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS33D_Transforms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Transitions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Transitions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3"/>
+        <foundUsing>http://www.w3schools.com/css/css3_transitions.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSBackgrounds -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSBackgrounds">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+        <foundUsing>http://www.w3schools.com/css/css3_backgrounds.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSId_Class -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSId_Class">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+        <foundUsing>http://www.w3schools.com/css/css_id_class.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSIntroduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSIntroduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+        <foundUsing>http://www.w3schools.com/css/css_intro.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSLinks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSLinks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+        <foundUsing>http://www.w3schools.com/css/css_link.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSLists -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSLists">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+        <foundUsing>http://www.w3schools.com/css/css_list.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSSyntax -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSSyntax">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+        <foundUsing>http://www.w3schools.com/css/css_syntax.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSTables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSTables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+        <foundUsing>http://www.w3schools.com/css/css_table.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSTexts_Fonts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSTexts_Fonts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+        <foundUsing>http://www.w3schools.com/css/css_text.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Advanced -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Advanced">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS"/>
+        <IsATopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS_Basics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS"/>
+        <IsATopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Canvas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Canvas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Graphics"/>
+        <foundUsing>http://www.w3schools.com/html/html5_canvas.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Graphics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Elements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+        <foundUsing>http://www.w3schools.com/html/html_elements.asp
+</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#FormAttributes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#FormAttributes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Forms"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#FormElements"/>
+        <foundUsing>http://www.w3schools.com/html/html5_form_attributes.asp
+</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Forms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#FormElements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#FormElements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Forms"/>
+        <foundUsing>http://www.w3schools.com/html/html5_form_elements.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Forms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#FormHandling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#FormHandling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPForms"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#FormValidation"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPForms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#FormValidation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#FormValidation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPForms"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPForms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Forms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Forms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+        <foundUsing>http://www.w3schools.com/html/html_forms.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Frames -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Frames">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+        <foundUsing>http://www.w3schools.com/html/html_iframe.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Subjects"/>
+        <IsA rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Subjects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML"/>
+        <IsATopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Elements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Elements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Introduction"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Semantics"/>
+        <foundUsing>http://www.w3schools.com/html/html5_new_elements.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Introduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Forms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Forms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#FormAttributes"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#FormElements"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Graphics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Graphics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Canvas"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Introduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Introduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Elements"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Semantics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Media -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Media">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Audio"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Video"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Semantics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Semantics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Introduction"/>
+        <foundUsing>http://www.w3schools.com/html/html5_semantic_elements.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Introduction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Html_JavaScript -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Html_JavaScript">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+        <foundUsing>http://www.w3schools.com/html/html_scripts.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Images -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Images">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+        <foundUsing>http://www.w3schools.com/html/html_images.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSAdvanced -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSAdvanced">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScript"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics"/>
+        <IsATopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScript"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScript"/>
+        <IsATopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScript"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScript -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScript">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Subjects"/>
+        <IsA rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Subjects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptArray -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptArray">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSAdvanced"/>
+        <foundUsing>http://www.w3schools.com/js/js_obj_array.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSAdvanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptDatatypes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptDatatypes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics"/>
+        <foundUsing>http://www.w3schools.com/js/js_datatypes.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptDate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptDate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSAdvanced"/>
+        <foundUsing>http://www.w3schools.com/js/js_obj_date.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSAdvanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptFor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptFor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptLoop_Statements"/>
+        <foundUsing>http://www.w3schools.com/js/js_loop_for.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptLoop_Statements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptFunctions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptFunctions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics"/>
+        <foundUsing>http://www.w3schools.com/js/js_functions.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptIf_Else -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptIf_Else">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptLoop_Statements"/>
+        <foundUsing>http://www.w3schools.com/js/js_break.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptLoop_Statements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptIntroduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptIntroduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics"/>
+        <foundUsing>http://www.w3schools.com/js/js_intro.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptLoop_Statements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptLoop_Statements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptFor"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptIf_Else"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptSwitch"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptWhile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptMath -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptMath">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSAdvanced"/>
+        <foundUsing>http://www.w3schools.com/js/js_obj_math.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSAdvanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptNumber -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptNumber">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSAdvanced"/>
+        <foundUsing>http://www.w3schools.com/js/js_obj_number.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSAdvanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptObjects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptObjects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSAdvanced"/>
+        <foundUsing>http://www.w3schools.com/js/js_obj_intro.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSAdvanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptOperators -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptOperators">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics"/>
+        <foundUsing>http://www.w3schools.com/js/js_operators.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptStrings -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptStrings">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSAdvanced"/>
+        <foundUsing>http://www.w3schools.com/js/js_obj_string.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSAdvanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptSwitch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptSwitch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptLoop_Statements"/>
+        <foundUsing>http://www.w3schools.com/js/js_switch.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptLoop_Statements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptValidations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptValidations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics"/>
+        <foundUsing>http://www.w3schools.com/js/js_form_validation.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptVariables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptVariables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics"/>
+        <foundUsing>http://www.w3schools.com/js/js_variables.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JSBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptWhile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptWhile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptLoop_Statements"/>
+        <foundUsing>http://www.w3schools.com/js/js_loop_while.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptLoop_Statements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Layouts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Layouts">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+        <foundUsing>http://www.w3schools.com/html/html_layout.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Linking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Linking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+        <foundUsing>http://www.w3schools.com/html/html_links.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Lists -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Lists">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+        <foundUsing>http://www.w3schools.com/html/html_lists.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHP -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHP">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Subjects"/>
+        <IsA rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Subjects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPAdvanced -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPAdvanced">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHP"/>
+        <IsATopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPArrays -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPArrays">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHP"/>
+        <IsATopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPCookies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPCookies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPAdvanced"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPAdvanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBCreate_DB/Table -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBCreate_DB/Table">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDatabase"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBDelete"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBInsert"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBOrder_By"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBSelect"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBWhere"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDatabase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBDelete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBDelete">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBCreate_DB/Table"/>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBCreate_DB/Table"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBInsert -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBInsert">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBCreate_DB/Table"/>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBCreate_DB/Table"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBMySQL_Connect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBMySQL_Connect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDatabase"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDatabase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBMySQL_Introduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBMySQL_Introduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDatabase"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDatabase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBODBC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBODBC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDatabase"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDatabase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBOrder_By -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBOrder_By">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBCreate_DB/Table"/>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBCreate_DB/Table"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBSelect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBSelect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBCreate_DB/Table"/>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBCreate_DB/Table"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBWhere -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBWhere">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBCreate_DB/Table"/>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBCreate_DB/Table"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDatabase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDatabase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHP"/>
+        <IsATopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDatatypes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDatatypes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPAdvanced"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPAdvanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPEcho/Print -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPEcho/Print">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPEmail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPEmail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPAdvanced"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPAdvanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPExceptions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPExceptions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPAdvanced"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPAdvanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPFor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPFor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPLoop_Statements"/>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPLoop_Statements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPForms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPForms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHP"/>
+        <IsATopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHP"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPFunctions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPFunctions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPIf_Else -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPIf_Else">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPLoop_Statements"/>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPLoop_Statements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPInstallation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPInstallation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPIntroduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPIntroduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPLoop_Statements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPLoop_Statements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPFor"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPIf_Else"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPSwitch"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPWhile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPOperators_Constants -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPOperators_Constants">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPSeesion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPSeesion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPAdvanced"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPAdvanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPSwitch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPSwitch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPLoop_Statements"/>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPLoop_Statements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPSyntax -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPSyntax">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPVariables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPVariables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPWhile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPWhile">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPLoop_Statements"/>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPLoop_Statements"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQL -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQL">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Subjects"/>
+        <IsA rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Subjects"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAVERAGE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAVERAGE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_func_avg.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAdvanced -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAdvanced">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQL"/>
+        <IsATopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAlter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAlter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCommand"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_alter.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCommand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLBasics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLBasics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQL"/>
+        <IsATopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCOUNT -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCOUNT">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_func_count.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCommand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCommand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLBasics"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAlter"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLBasics"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLDelete"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLDrop"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLSelect"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLUpdate"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLConstraints -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLConstraints">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLDates"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAdvanced"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLForeign_Key"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLNot_Null"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLPrimary_Key"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLUnique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLDates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLDates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAdvanced"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAdvanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLDelete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLDelete">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCommand"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_delete.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCommand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLDrop -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLDrop">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCommand"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_drop.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCommand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFIRST -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFIRST">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_func_first.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLForeign_Key -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLForeign_Key">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLConstraints"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_foreignkey.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLConstraints"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFull -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFull">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLJoins"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_join_full.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLJoins"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQL"/>
+        <IsATopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQL"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLGROUP_BY -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLGROUP_BY">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_groupby.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLHAVING -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLHAVING">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_having.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLInner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLInner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLJoins"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_join_inner.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLJoins"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLIntroduction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLIntroduction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLBasics"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_intro.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLJoins -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLJoins">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAdvanced"/>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAdvanced"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFull"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLInner"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLLeft"/>
+        <Has rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLRight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLLAST -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLLAST">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_func_last.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLLeft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLLeft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLJoins"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_join_left.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLJoins"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLMAX -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLMAX">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_func_max.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLMIN -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLMIN">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_func_min.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLNot_Null -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLNot_Null">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLConstraints"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_notnull.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLConstraints"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLPrimary_Key -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLPrimary_Key">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLConstraints"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_primarykey.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLConstraints"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLROUND -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLROUND">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_func_round.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLRight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLRight">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLJoins"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_join_right.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLJoins"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLSUM -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLSUM">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_func_sum.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLSelect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLSelect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCommand"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_select.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCommand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLSyntax -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLSyntax">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLBasics"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_intro.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLBasics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLUnique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLUnique">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLConstraints"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_unique.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLConstraints"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLUpdate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLUpdate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCommand"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_update.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCommand"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLViews -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLViews">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAdvanced"/>
+        <foundUsing>http://www.w3schools.com/sql/sql_view.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAdvanced"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Subjects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Subjects"/>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Tables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Tables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+        <foundUsing>http://www.w3schools.com/html/html_tables.asp</foundUsing>
+        <IsASubTopicOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Basics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Video -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Video">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Media"/>
+        <foundUsing>http://www.w3schools.com/html/html5_video.asp</foundUsing>
+        <IsUnder rdf:resource="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#HTML5Media"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&owl;topObjectProperty">
+        <has rdf:datatype="&xsd;string"></has>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPFor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPIf_Else"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPSwitch"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPWhile"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSBackgrounds"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSId_Class"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSIntroduction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSLinks"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSLists"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSSyntax"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSTables"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSSTexts_Fonts"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Animations"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Gradients"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Introduction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Text_Effects"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Transforms"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Transitions"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAdvanced"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLBasics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFunctions"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptArray"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptMath"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptNumber"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptObjects"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptStrings"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAVERAGE"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCOUNT"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFIRST"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLGROUP_BY"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLHAVING"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLLAST"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLMAX"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLMIN"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLROUND"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLSUM"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLCommand"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLIntroduction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLSyntax"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLFull"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLInner"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLLeft"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLRight"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBDelete"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBInsert"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBOrder_By"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBSelect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBWhere"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptDatatypes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptFunctions"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptIntroduction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptLoop_Statements"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptOperators"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptValidations"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptVariables"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPCookies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPEmail"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPExceptions"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPSeesion"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBCreate_DB/Table"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBMySQL_Connect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBMySQL_Introduction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDBODBC"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptFor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptIf_Else"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptSwitch"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#JavaScriptWhile"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLAlter"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLDelete"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLDrop"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLSelect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLUpdate"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Border"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Margin"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Outline"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Padding"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Attributes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Elements"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Forms"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Frames"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Html_JavaScript"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Images"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Layouts"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Linking"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Lists"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#Tables"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Floating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Grouping_Nesting"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Image"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#CSS3Postitioning"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLConstraints"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLDates"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLJoins"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLViews"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPArrays"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDatatypes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPEcho/Print"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPFunctions"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPInstallation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPIntroduction"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPLoop_Statements"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPOperators_Constants"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPSyntax"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPVariables"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPAdvanced"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPBasics"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPDatabase"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#PHPForms"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLForeign_Key"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLNot_Null"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLPrimary_Key"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/harshbahua/ontologies/2014/1/untitled-ontology-7#SQLUnique"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
